@@ -66,8 +66,8 @@ if __name__ == "__main__":
     
     # Ejemplo de parámetros para la sesión de juego
     parametros_sala = { 
-        "tematica": "Investigacion",
-        "caracteristicas": "Hay una serie de asesinatos en la ciudad, no se sabe si es un asesino serial o un culto o fuerzas mas alla de lo humano"
+        "tematica": "Terror Espacial",
+        "caracteristicas": "Se duda de la existencia de los aliens pero quien ve a los aliens se enloquece que traman ? los ayudan humanos?"
     }
 
     historia_principal = generar_informe_repar(API_KEY, parametros_sala)
